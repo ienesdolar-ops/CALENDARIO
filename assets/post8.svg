@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="1080" viewBox="0 0 1080 1080">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#FF006E"/>
+      <stop offset="100%" style="stop-color:#C9184A"/>
+    </linearGradient>
+  </defs>
+  <rect width="1080" height="1080" fill="url(#bg)"/>
+  <text x="540" y="520" text-anchor="middle" fill="white" font-family="Arial, sans-serif" font-size="48" font-weight="bold">Reels: Tour Virtual</text>
+  <text x="540" y="580" text-anchor="middle" fill="rgba(255,255,255,0.7)" font-family="Arial, sans-serif" font-size="28">Faculdade Inspirar</text>
+</svg>
