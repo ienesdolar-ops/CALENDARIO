@@ -114,9 +114,12 @@
     return map[status] || status;
   }
 
-  /** Retorna os posts filtrados pela aba e filtros ativos */
+  /** Retorna os posts filtrados pela aba e filtros ativos (mais recentes primeiro) */
   function getFilteredPosts() {
     let filtered = [...posts];
+
+    // Ordenar posts do feed no estilo Instagram: mais recentes primeiro (data decrescente)
+    filtered.sort((a, b) => new Date(b.data + 'T12:00:00') - new Date(a.data + 'T12:00:00'));
 
     // Filtrar por aba
     if (state.currentTab === 'reels') {

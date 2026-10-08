@@ -1,0 +1,17 @@
+{
+  "name": "calendario-inspirar",
+  "version": "1.0.0",
+  "description": "Simulador de Perfil Instagram e Calendário Editorial - Faculdade Inspirar BC",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "keywords": [
+    "instagram",
+    "simulator",
+    "calendario",
+    "inspirar"
+  ],
+  "author": "",
+  "license": "ISC"
+}
