@@ -4,7 +4,8 @@
   "description": "Simulador de Perfil Instagram e Calendário Editorial - Faculdade Inspirar BC",
   "main": "server.js",
   "scripts": {
-    "start": "node server.js"
+    "start": "node server.js",
+    "build": "echo 'Static build ready'"
   },
   "keywords": [
     "instagram",
